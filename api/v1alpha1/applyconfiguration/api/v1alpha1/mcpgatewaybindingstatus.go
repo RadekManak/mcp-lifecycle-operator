@@ -35,7 +35,6 @@ type MCPGatewayBindingStatusApplyConfiguration struct {
 	// Standard condition types:
 	// - "Registered": The integration controller has processed this binding
 	// and created the necessary gateway resources.
-	//
 	Conditions []v1.ConditionApplyConfiguration `json:"conditions,omitempty"`
 }
 
